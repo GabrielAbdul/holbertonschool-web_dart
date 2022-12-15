@@ -1,3 +1,3 @@
 void main() {
-  var n = 98; print(n.toString() + " Battery street\n");
+  var n = 98; print("$n Battery street\n");
 }
