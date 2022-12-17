@@ -23,6 +23,5 @@ int calculateTeamScore(Map<String, int> team) {
 
     teamScore = freeThrows + twoPointers + threePointers as int;
 
-    print(teamScore);
     return teamScore;
 }
