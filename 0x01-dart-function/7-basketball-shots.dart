@@ -7,8 +7,8 @@ int whoWins(Map<String, int> teamA, Map<String, int> teamB) {
 
     if (teamAScore > teamBScore) return 1;
     if (teamAScore < teamBScore) return 2;
-
-    return 0;
+    
+    if (teamAScore == teamBScore) return 0;
 }
 
 int calculateTeamScore(Map<String, int> team) {
